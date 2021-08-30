@@ -788,6 +788,9 @@ h4 {
 }
 
 .tc-white {
+    color: #FFFFFF!important;
+}
+.tc-orange {
     color: #F3976C!important;
 }
 
@@ -800,7 +803,6 @@ h4 {
     background: #c27956!important;
     color: #FFFFFF!important;
 }
-
 .ltc-white {
     color: #FFFFFF!important;
 }
@@ -1061,4 +1063,18 @@ h4 {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.partenaire {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.partenaires{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
