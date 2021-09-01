@@ -92,12 +92,6 @@ a:hover {
     left: 0;
     right: 0;
 }
-
-.texture-paper::before {
-    background: url("img/texture-paper.png");
-    background-size: 280px 280px;
-}
-
 .b-parallax {
     background-attachment: fixed;
 }
@@ -1065,16 +1059,13 @@ h4 {
     align-items: center;
 }
 
-.partenaire {
+.align-center {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
+
 }
 
-.partenaires{
+.sizing {
     width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
 }
